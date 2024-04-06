@@ -71,8 +71,13 @@ textarea {
 @media (max-width: 768px) {
 
     .contactform {
-        width: 80%;
-        margin-left: 40px;
+        margin-top: 130px;
+        width: 50%;
+        margin-left: 160px;
+    }
+
+    .social{
+        font-size: 12px;
     }
 
 

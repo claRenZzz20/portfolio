@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mydiv {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    background-color: #222222;
+}
+
+.logo {
+    height: 10vh;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 150px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    translate: 1rem;
+    transition: 0.5s;
+}
+
+.button {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(168, 80, 193);
+}
+
+.info a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 3px 18px;
+    border-radius: 50px;
+}
+
+.profile {
+    border-radius: 500px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 170px;
+    box-shadow: 0 10px 10px rgb(126, 126, 126), 10px 10px rgb(53, 53, 53);
+}
+
+.profile:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.image {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.tit {
+    font-size: 50px;
+}
+
+.information {
+    float: left;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.job {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.info {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.Hire {
+    border: solid white;
+}
+
+.buttons a:hover {
+    background-color: white;
+    border: solid black;
+    color: black;
+    transition: 0.8s;
+    scale: 2;
+}
+
+.fa-brands {
+    margin-top: 20px;
+}
+
+.fa-brands {
+    margin-left: 20px;
+}
+
+#Home {
+    height: 100vh;
+    width: 100%;
+}
+
+#Skills {
+    width: 98%;
+    margin-left: 10px;
+    height: 100vh;
+    border-radius: 50px;
+    border: solid white;
+    background-color: #222222;
+}
+
+.abt {
+    padding: 50px;
+}
+
+.Html {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(126, 126, 126), 10px 10px rgb(53, 53, 53);
+}
+
+.Html:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.Photoshop {
+    height: 250px;
+    background-color: #ffffff;
+    margin-left: 100px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(126, 126, 126), 10px 10px rgb(53, 53, 53);
+}
+
+.Photoshop:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.Css {
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(126, 126, 126), 10px 10px rgb(53, 53, 53);
+}
+
+.Css:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.mySkill {
+    border: solid white;
+    border-radius: 10px;
+    margin-left: 27%;
+    margin-top: 0;
+    background-color: black;
+    width: 600px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.skillbar {
+    width: 50%;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px rgb(126, 126, 126), 5px 5px rgb(53, 53, 53);
+}
+
+.skill {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skillname {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    margin: 10px;
+}
+
+.skill-bar {
+    height: 14px;
+    background: gray;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0), 5px 5px rgb(226, 163, 163);
+}
+
+.skill-bar:hover {
+    box-shadow: 0 10px 10px rgb(0, 0, 0), 10px 10px rgb(226, 163, 163);
+    transition: 0.3s;
+}
+
+.skill-per {
+    height: 14px;
+    background: #222222;
+    border-radius: 3px;
+    animation: fillBars 10s;
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+#About {
+    width: 100%;
+    height: 200vh;
+}
+
+.aboutme {
+    width: 15%;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    border: solid white;
+}
+
+.aboutme:hover {
+    color: white;
+    text-shadow: 0 5px 5px rgb(19, 19, 19), 5px 5px rgb(0, 0, 0);
+    box-shadow: 0 10px 15px rgb(19, 19, 19), 15px 15px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.abt2 {
+    margin-top: 0;
+    margin-right: 150px;
+    width: 25%;
+    height: 50vh;
+    border: solid white;
+    box-shadow: 5px 5px 15px 15px rgb(97, 96, 96);
+    float: right;
+}
+
+.abtinfo {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 100px;
+    background-color: rgb(44, 43, 43);
+    border: solid white;
+}
+
+.abt2:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.work {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 5%;
+    color: black;
+    border-radius: 20px;
+}
+
+.mywork {
+    margin-left: 60%;
+    margin-top: 50px;
+    background-color: rgb(44, 43, 43);
+    border: solid white;
+    color: white;
+    font-size: 35px;
+    width: 18%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.mywork:hover {
+    color: white;
+    text-shadow: 0 5px 5px rgb(19, 19, 19), 5px 5px rgb(0, 0, 0);
+    box-shadow: 0 10px 15px rgb(19, 19, 19), 15px 15px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.fbclone {
+    float: left;
+    margin-top: 2%;
+    width: 28%;
+    height: 50vh;
+    margin-left: 70px;
+    border: solid black;
+    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
+}
+
+.fbclone:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.work1 {
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 100px;
+    background-color: rgb(44, 43, 43);
+    border: solid white;
+}
+
+.work2 {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    border: solid white;
+    margin-top: 10%;
+    height: 10%;
+    padding: 30px;
+}
+
+.itechlogo {
+    width: 25%;
+    height: 50vh;
+    margin-top: 3%;
+    margin-right: 100px;
+    border: solid black;
+    float: right;
+    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
+}
+
+.itechlogo:hover {
+    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
+    transition: 0.3s;
+}
+
+.gameinfo {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+#Contact {
+    width: 100%;
+    height: 28vh;
+}
+
+.contactnav {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    border: 5px solid white;
+}
+
+.mycontact {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+.number {
+    color: white;
+}
+
+.email {
+    margin-top: 10px;
+    color: white;
+}
+
+@media (max-width: 500px) {
+
+    .bar {
+        background-color: black;
+        margin: auto;
+        position: fixed;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .profile {
+        margin-left: 1000px;
+        height: 40%;
+        width: 60%;
+        margin-top: 80px;
+    }
+
+    .button {
+        position: absolute;
+        font-size: 15px;
+        gap: 1px;
+        margin-left: 100px;
+    }
+
+    .ul li {
+        position: absolute;
+        display: block;
+        gap: 0;
+    }
+
+    .information {
+        margin-top: 10px;
+        margin-left: 25px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .tit {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .job {
+        margin-left: 50px;
+    }
+
+    .Hire {
+        margin-left: 115px;
+    }
+
+    .mySkill {
+        width: 50%;
+    }
+
+    .abt {
+        padding: 10px;
+    }
+
+    .Html {
+        height: 20vh;
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+
+    .Css {
+        height: 20vh;
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+
+    .Photoshop {
+        height: 20vh;
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+
+    .skillbar {
+        margin-top: 20px;
+        width: 70%;
+        height: 30vh;
+    }
+
+    #Skills {
+        height: 115vh;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .aboutme {
+        width: 41%;
+        margin-left: 140px;
+    }
+
+    .abt2 {
+        height: 30vh;
+        width: 50%;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        margin-right: 120px;
+        border-radius: 20px;
+    }
+
+    .abtinfo {
+        font-size: 20px;
+        text-align: center;
+        padding: 100px;
+    }
+
+    .fname {
+        color: red;
+    }
+
+    .mywork {
+        width: 52%;
+        margin-left: 120px;
+    }
+
+    .work {
+        font-size: 15px;
+    }
+
+    .fbclone {
+        height: 30vh;
+        width: 50%;
+        margin-left: 110px;
+        margin-top: 110px;
+        border: solid black;
+    }
+
+    .work1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 90px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .itechlogo {
+        height: 30vh;
+        width: 50%;
+        margin-right: 125px;
+        margin-top: 100px;
+        border: solid black;
+    }
+
+    .work2 {
+        height: 60vh;
+        text-align: center;
+        padding: 90px;
+    }
+
+    .gameinfo {
+        font-size: 20px;
+    }
+
+    #Contact {
+        width: 100%;
+        height: 25vh;
+        margin-top: 400px;
+        font-size: 10px;
+    }
+
+
+
+}

@@ -457,7 +457,7 @@ ul li a:hover {
         position: absolute;
         font-size: 15px;
         gap: 0;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-top: 50px;
     }
 
@@ -475,16 +475,16 @@ ul li a:hover {
     }
 
     .tit {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .name {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .job {
         margin-left: 60px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .Hire {
@@ -528,13 +528,13 @@ ul li a:hover {
     }
 
     #Skills {
-        height: 120vh;
+        height: 115vh;
         width: 100%;
         margin-left: 0;
     }
 
     .aboutme {
-        width: 45%;
+        width: 46%;
         margin-top: 100px;
         margin-left: 100px;
     }
@@ -559,7 +559,7 @@ ul li a:hover {
     }
 
     .mywork {
-        width: 50%;
+        width: 60%;
         margin-left: 50px;
     }
 
@@ -605,8 +605,9 @@ ul li a:hover {
     #Contact {
         width: 100%;
         height: 25vh;
-        margin-top: 610px;
+        margin-top: 590px;
         font-size: 10px;
+        margin-left: 3px;
     }
 
 

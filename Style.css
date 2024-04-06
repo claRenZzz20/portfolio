@@ -433,7 +433,7 @@ ul li a:hover {
     color: white;
 }
 
-@media (min-width: 340px) {
+@media (max-width: 380px) {
 
     .bar {
         background-color: black;

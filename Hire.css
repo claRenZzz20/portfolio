@@ -71,9 +71,11 @@ textarea {
 @media (max-width: 768px) {
 
     .contactform {
+        border-radius: 20px;
         margin-top: 130px;
-        width: 100%;
-        margin-left: 20px;
+        width: 50%;
+        margin-left: 150px;
+        box-shadow: 0 10px 10px white, 10px 10px gray;
     }
 
     .social{

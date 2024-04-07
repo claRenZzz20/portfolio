@@ -447,9 +447,9 @@ ul li a:hover {
     }
 
     .profile {
-        margin-right: 200px;
-        height: 50%;
-        width: 50%;
+        margin-right: 70px;
+        height: 30%;
+        width: 60%;
         margin-top: 100px;
     }
 
@@ -457,7 +457,7 @@ ul li a:hover {
         position: absolute;
         font-size: 15px;
         gap: 0;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 50px;
     }
 

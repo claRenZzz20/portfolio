@@ -282,7 +282,9 @@ ul li a:hover {
     padding: 15px;
     margin-top: 10%;
     margin-left: 20%;
-    color: white;
+    color: red;
+    text-shadow: 0 5px 5px black;
+    border-radius: 50px;
 }
 
 .aboutme:hover {
@@ -332,7 +334,9 @@ ul li a:hover {
     font-size: 35px;
     width: 18%;
     padding: 25px;
-    border-radius: 20px;
+    color: red;
+    text-shadow: 0 5px 5px black;
+    border-radius: 50px;
 }
 
 .mywork:hover {

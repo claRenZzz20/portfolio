@@ -8,10 +8,11 @@
     background-color: white;
     width: 30%;
     height: 58vh;
-    border: solid black;
     position: fixed;
     margin-left: 35%;
     margin-top: 180px;
+    box-shadow: 10px 10px 15px lightseagreen, -10px -10px 15px lightseagreen;
+    border-radius: 20px;
 }
 
 .message {
@@ -60,6 +61,13 @@ textarea {
 
 .textarea:valid span {
     font-size: 12px;
+}
+
+.button{
+    border-radius: 15px;
+    border: solid black;
+    background-color: white;
+    color: black;
 }
 
 .button:hover {

@@ -915,41 +915,41 @@ ul li a:hover {
             margin-left: 210px;
         }
 
-        .abt2{
+        .abt2 {
             margin-top: 10px;
         }
 
-        .mywork{
+        .mywork {
             width: 37%;
         }
 
-        #Contact{
+        #Contact {
             height: 30vh;
         }
 
-        .mycontact{
+        .mycontact {
             margin-top: 10px;
         }
 
-        .contactnav{
+        .contactnav {
             margin-top: 500px;
-        }   
+        }
 
     }
 
 
     @media (max-width: 591px) {
 
-        .button{
+        .button {
             margin-left: 150px;
         }
 
-        .profile{
+        .profile {
             width: 50%;
             margin-right: 150px;
         }
 
-        .information{
+        .information {
             margin-left: 100px;
         }
 
@@ -978,25 +978,25 @@ ul li a:hover {
             margin-left: 190px;
         }
 
-        .aboutme{
+        .aboutme {
             width: 35%;
             margin-left: 80px;
         }
 
-        .mywork{
+        .mywork {
             width: 43%;
         }
 
-        .fbclone{
+        .fbclone {
             margin-top: 50px;
         }
 
-        .itechlogo{
+        .itechlogo {
             width: 30%;
             height: 35vh;
         }
 
-        .mp3clone{
+        .mp3clone {
             margin-left: 0;
         }
 
@@ -1004,20 +1004,20 @@ ul li a:hover {
 
     @media (max-width: 511px) {
 
-        .button{
+        .button {
             margin-left: 100px;
         }
 
-        .profile{
+        .profile {
             width: 60%;
             margin-right: 100px;
         }
 
-        .information{
+        .information {
             margin-left: 70px;
         }
 
-        #Skills{
+        #Skills {
             height: 120vh;
         }
 
@@ -1046,38 +1046,38 @@ ul li a:hover {
             margin-left: 150px;
         }
 
-        .aboutme{
+        .aboutme {
             width: 38%;
             margin-left: 35px;
         }
 
-        .mywork{
+        .mywork {
             width: 50%;
             margin-left: 130px;
         }
 
-        .fbclone{
+        .fbclone {
             height: 30vh;
             margin-top: 110px;
         }
 
-        .itechlogo{
+        .itechlogo {
             width: 30%;
             margin-right: 40px;
         }
 
-        .gameinfo{
+        .gameinfo {
             margin-left: 0;
             padding: 0;
         }
 
-        .mp3clone{
+        .mp3clone {
             margin-top: 0;
             margin-left: 0;
             width: 90%;
         }
 
-        .work3{
+        .work3 {
             margin-top: 100px;
             height: 80vh;
         }
@@ -1086,75 +1086,75 @@ ul li a:hover {
 
     @media (max-width: 440px) {
 
-        .button{
+        .button {
             margin-left: 65px;
             font-size: 13px;
         }
 
-        .profile{
+        .profile {
             height: 35vh;
             margin-right: 80px;
         }
 
-        .information{
+        .information {
             margin-left: 40px;
         }
 
-        .aboutme{
+        .aboutme {
             font-size: 25px;
             margin-left: 120px;
         }
 
-        .abt2{
+        .abt2 {
             height: 30vh;
             width: 60%;
         }
 
-        .mywork{
+        .mywork {
             width: 60%;
             margin-left: 80px;
         }
 
-        .fbclone{
+        .fbclone {
             height: 30vh;
             margin-top: 90px;
         }
 
-        .work1{
+        .work1 {
             font-size: 15px;
             padding: 80px;
         }
 
-        .itechlogo{
+        .itechlogo {
             margin-right: 100px;
             margin-top: 60px;
             width: 50%;
         }
 
-        .gameinfo{
+        .gameinfo {
             font-size: 17px;
         }
 
-        .mp3{
+        .mp3 {
             height: 40vh;
             width: 90%;
             margin-top: 140px;
             margin-left: 30px;
         }
 
-        #Contact{
+        #Contact {
             height: 30vh;
         }
 
-        .mycontact{
+        .mycontact {
             margin-top: 10px;
         }
 
-        .contactnav{
+        .contactnav {
             margin-top: 700px;
-        } 
+        }
 
-        
+
 
     }
 

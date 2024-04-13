@@ -1158,6 +1158,69 @@ ul li a:hover {
 
     }
 
+    @media (max-width: 380px) {
+
+        .mySkill{
+            margin-left: 100px;
+        }
+
+        .Html {
+            height: 20vh;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+
+        .Css {
+            height: 20vh;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+
+        .Photoshop {
+            height: 20vh;
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+
+        .skillname{
+            font-size: 15px;
+            margin-left: 0;
+        }
+
+        .aboutme{
+            width: 45%;
+            margin-left: 100px;
+        }
+
+        .fbclone{
+            width: 60%;
+            margin-left: 70px;
+        }
+
+        .itechlogo{
+            width: 60%;
+            margin-right: 70px;
+        }
+
+        .mywork{
+            width: 68%;
+            margin-left: 60px;
+        }
+
+        .work2{
+            height: 60vh;
+        }
+
+        .contactnav{
+            margin-top: 800px;
+        }
+
+    }
+
+
     @media (max-width: 368px) {
 
         .bar {
@@ -1365,4 +1428,141 @@ ul li a:hover {
             margin-left: 2px;
         }
     }
+
+    @media (max-width: 300px) {
+
+        .button{
+            font-size: 13px;
+        }
+
+        .profile{
+            width: 80%;
+            margin-right: 30px;
+        }
+
+        .tit{
+            font-size: 15px;
+        }
+
+        .name{
+            font-size: 25px;
+        }
+
+        .job{
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+        .info{
+            font-size: 15px;
+        }
+
+        .Hire{
+            margin-left: 20px;
+        }
+
+        .mySkill{
+            font-size: 20px;
+            margin-left: 75px;
+        }
+
+        .Html {
+            height: 20vh;
+            width: 60%;
+            margin-top: 10px;
+            margin-left: 55px;
+        }
+
+        .Css {
+            height: 20vh;
+            width: 60%;
+            margin-top: 10px;
+            margin-left: 55px;
+        }
+
+        .Photoshop {
+            height: 20vh;
+            width: 60%;
+            margin-top: 10px;
+            margin-left: 55px;
+        }
+
+        .aboutme{
+            margin-left: 65px;
+        }
+
+        .abt2{
+            margin-top: 0;
+            margin-right: 65px;
+        }
+
+        .abtinfo{
+            font-size: 15px;
+            padding: 60px;
+        }
+
+        .mywork{
+            font-size: 25px;
+            margin-left: 45px;
+            width: 70%;
+        }
+
+        .fbclone{
+            margin-left: 40px;
+            margin-top: 0;
+            height: 30vh;
+        }
+
+        .work1{
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .itechlogo{
+            width: 60%;
+            margin-top: 50px;
+            margin-right: 55px;
+        }      
+
+        .work2{
+            padding: 30px;
+            height: 45vh;
+        }
+
+        .gameinfo{
+            font-size: 15px;
+        }
+
+        .mp3{
+            margin-top: 110px;
+        }
+
+        .work3{
+            padding: 30px;
+            height: 50vh;
+        }
+
+        .mp3info{
+            font-size: 15px;
+        }
+
+        .open{
+            margin-top: 25px;
+        }
+
+        #About{
+            height: 140vh;
+        }
+
+        #Contact{
+            height: 35vh;
+            margin-top: 0;
+        }
+
+        .mycontact{
+            height: 10vh;
+        }
+
+    }
+
 }

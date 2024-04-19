@@ -53,3 +53,79 @@ button:hover{
 button:active{
     background-color: rgb(97, 96, 96);
 }
+
+@media (max-width: 885px){
+    #calculator{
+        margin-left: 200px;
+    }
+
+    button{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 722px){
+    #calculator{
+        margin-left: 200px;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 640px){
+    #calculator{
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 540px){
+    #calculator{
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 470px){
+    #calculator{
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 405px){
+    #calculator{
+        width: 72%;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
+}

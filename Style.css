@@ -916,9 +916,15 @@ ul li a:hover {
         .button {
             position: absolute;
             font-size: 15px;
-            gap: 0;
             margin-left: 20px;
-            margin-top: 50px;
+            margin-top: 40px;
+        }
+
+        .btn1 {
+            position: absolute;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-top: 62px;
         }
 
         .ul li {
@@ -999,10 +1005,11 @@ ul li a:hover {
         }
 
         .aboutme {
-            width: 58%;
+            width: 100%;
             margin-top: 20px;
-            margin-left: 120px;
+            margin-left: 75px;
             float: left;
+            padding: 20px;
         }
 
         .abt2 {
@@ -1017,7 +1024,7 @@ ul li a:hover {
         .abtinfo {
             font-size: 18px;
             text-align: center;
-            padding: 80px;
+            padding: 60px;
         }
 
         .fname {
@@ -1027,7 +1034,7 @@ ul li a:hover {
         #Contact {
             width: 100%;
             height: 30vh;
-            margin-top: 1700px;
+            margin-top: 100px;
             font-size: 10px;
             margin-left: 2px;
         }

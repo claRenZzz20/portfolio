@@ -974,9 +974,8 @@ ul li a:hover {
         }
 
         .btn1 {
-            position: absolute;
             font-size: 15px;
-            margin-left: 0;
+            margin-left: 40px;
             margin-top: 70px;
             width: 30%;
         }
@@ -984,7 +983,7 @@ ul li a:hover {
 
         .btn2 {
             font-size: 15px;
-            margin-left: 0;
+            margin-left: 10px;
             margin-top: 20px;
             width: 30%;        }
 

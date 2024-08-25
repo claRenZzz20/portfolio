@@ -122,12 +122,65 @@ ul li a:hover {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.buttons {
+.btn1{
     margin-top: 20px;
+    font-size: 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: black;
+    height: 6vh;
+    width: 17%;
 }
 
-.Hire {
-    border: solid white;
+.btn1:hover{
+    background-color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: all 1s ease-in-out ;
+}
+
+.hire{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.hire:hover{
+    color: black;
+}
+
+.btn2{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: black;
+    height: 6vh;
+    width: 17%;
+}
+
+.btn2:hover{
+    background-color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: all 1s ease-in-out ;
+}
+
+.works{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.works:hover{
+    color: black;
+}
+
+.btn2{
+    margin-top: 13px;
 }
 
 .buttons a:hover {
@@ -162,7 +215,7 @@ ul li a:hover {
 
 .abt {
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .Html {

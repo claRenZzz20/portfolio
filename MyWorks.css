@@ -2,648 +2,486 @@
     margin: auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
-#work{
-    height: 400vh;
-}
-
-.work {
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 0;
+.myworks{
+    border: solid 1px black;
     border-radius: 20px;
 }
 
-.mywork {
-    margin-left: 36%;
-    margin-top: 0;
-    font-size: 70px;
-    width: 35%;
-    padding: 25px;
-    color: white;
-    text-shadow: 0 5px 5px gray;
-    border-radius: 50px;
-}
-
-.mywork:hover {
-    color: white;
-    text-shadow: 0 5px 5px rgb(19, 19, 19), 5px 5px rgb(0, 0, 0);
-    box-shadow: 0 10px 15px rgb(19, 19, 19), 15px 15px rgb(0, 0, 0);
-    transition: 0.5s;
-}
-
-.fbclone {
-    float: left;
-    margin-top: 20px;
-    width: 28%;
-    height: 50vh;
-    margin-left: 70px;
-    border: solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
-}
-
-.fbclone:hover {
-    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
-    transition: 0.3s;
-}
-
-.work1 {
-    margin-top: 60px;
-    font-size: 25px;
-    font-weight: 500;
-    color: white;
-    padding: 100px;
-    background-color: rgb(44, 43, 43);
-    border: solid white;
-}
-
-.work2 {
-    background-color: rgb(44, 43, 43);
-    color: white;
-    border: solid white;
-    margin-top: 10%;
-    height: 10%;
-    padding: 30px;
-}
-
-.itechlogo {
-    width: 25%;
-    height: 50vh;
-    margin-top: 7%;
-    margin-right: 100px;
-    border: solid black;
-    border-radius: 10px;
-    float: right;
-    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
-}
-
-.itechlogo:hover {
-    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
-    transition: 0.3s;
-}
-
-.gameinfo {
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 7%;
-    background-color: rgb(44, 43, 43);
-}
-
-.work3 {
-    background-color: rgb(44, 43, 43);
-    color: white;
-    border: solid white;
-    margin-top: 15%;
-    height: 15%;
-    padding: 30px;
-}
-
-.mp3 {
-    width: 50%;
-    height: 50vh;
-    margin-top: 18%;
-    margin-left: 30px;
-    border: solid white;
-    border-radius: 10px;
-    float: left;
-    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
-}
-
-.mp3:hover {
-    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
-    transition: 0.3s;
-}
-
-.mp3info {
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 10%;
-}
-
-.openapp {
-    border: solid white;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px;
-    border-radius: 50px;
-    margin-left: 200px;
-}
-
-.openapp:hover {
-    background-color: white;
-    color: black;
-    border: solid black;
-    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
-}
-
-.open {
-    margin-top: 40px;
-}
-
-.calculator {
-    width: 25%;
-    height: 50vh;
-    margin-top: 10%;
-    margin-right: 100px;
-    border: solid black;
-    border-radius: 10px;
-    float: right;
-    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
-}
-
-.calcu{
+.mywrks{
+    border: solid 3px black;
+    background-image: linear-gradient(to top, blue, red);
+    position: fixed;
     width: 100%;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    z-index: -1;
+    position: sticky;
+    top: 0;
+    background: url(Images/minimal-background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage{
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 50px;
+}
+
+.hire{
+    width: 25%;
+    height: 5vh;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.renz{
     height: 50vh;
+    width: 28%;
+    float: right;
+    margin-top: 200px;
+    margin-right: 140px;
+    border: solid 3px white;
+    border-radius: 200px;
+    box-shadow: 8px 8px 8px black;
 }
 
-.calculator:hover {
-    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
-    transition: 0.3s;
-}
-
-.calcuinfo {
-    font-size: 23px;
-    padding: 10px;
-    margin-top: 2%;
-}
-
-.work4 {
-    background-color: rgb(44, 43, 43);
+span{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    position: relative;
     color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+span::before{
+    position: absolute;
+    content: "WELCOME!!";
+    color: red;
+    animation: filling 2s linear infinite;
+    border-right: 3px solid black;
+    overflow: hidden;
+}
+
+.page{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@keyframes filling{
+    0% {width: 0%;}
+    50% {width: 100%;}
+    100% {width: 0%;}
+}
+
+.wrks{
+    height: 200vh;
+    background-color: aliceblue;
     border: solid white;
-    margin-top: 15%;
-    height: 8%;
-    padding: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #4A6274, #94ACBF ,#FDD8D6);
 }
 
-.openapp {
-    border: solid white;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px;
-    border-radius: 50px;
-    margin-left: 200px;
+.job1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.openapp:hover {
-    background-color: white;
-    color: black;
-    border: solid black;
-    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+.work1{
+    background-color: gray;
+    height: 50vh;
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 30px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
 }
 
-.open {
-    margin-top: 40px;
-}
-
-.work5 {
-    background-color: rgb(44, 43, 43);
-    color: white;
-    border: solid white;
-    margin-top: 15%;
-    margin-bottom: 50px;
-    height: 15%;
-    padding: 30px;
-}
-
-.ss {
+.fbclone{
+    height: 30vh;
     width: 50%;
-    height: 50vh;
-    margin-top: 18%;
-    margin-left: 30px;
-    border: solid white;
-    border-radius: 10px;
-    float: left;
-    box-shadow: 5px 5px 15px 3px rgb(97, 96, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 2px gray;
+    border-radius: 20px;
 }
 
-.ss:hover {
-    box-shadow: 0 20px 25px rgb(126, 126, 126), 25px 25px rgb(53, 53, 53);
-    transition: 0.3s;
-}
-
-.SSinfo {
-    font-size: 25px;
+.info1{
+    margin-top: 23px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
     padding: 10px;
-    margin-top: 10%;
+    border: solid 2px black;
+    border-radius: 20px;
 }
 
-.openapp {
-    border: solid white;
+.fbinfo{
+    text-align: center;
+    font-size: 17px;
+}
+
+.work2{
+    background-color: gray;
+    height: 50vh;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.itechlogo{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 2px gray;
+    border-radius: 20px;
+}
+
+.info2{
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.gameinfo{
+    text-align: center;
+    font-size: 17px;
+}
+
+.job2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.work3{
+    background-color: gray;
+    height: 52vh;
+    width: 30%;
+    margin-left: 150px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.mp3clone{
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border: solid 2px gray;
+    border-radius: 20px;
+}
+
+.info3{
+    margin-top: 5px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.mp3info{
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    margin-top: 5px;   
+    height: 6vh;
+    width: 21%;
+    border-radius: 25px;
+}
+
+.button1{
+    height: 5vh;
+    margin-top: 3px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom ,#537679, #1a2227) ; 
+}
+
+.button1:hover{
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    border: none; 
+    cursor: pointer;
+}
+
+.music{
+    font-size: 16px;
     text-decoration: none;
     color: white;
-    background-color: black;
+} 
+
+.work4{
+    background-color: gray;
+    height: 52vh;
+    width: 30%;
+    margin-left: 10px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.calculator{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 2px gray;
+    border-radius: 20px;
+}
+
+.info4{
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
     padding: 10px;
-    border-radius: 50px;
-    margin-left: 200px;
+    border: solid 2px black;
+    border-radius: 20px;
 }
 
-.openapp:hover {
-    background-color: white;
-    color: black;
-    border: solid black;
-    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+.calcuinfo{
+    text-align: center;
+    font-size: 17px;
 }
 
-.open {
-    margin-top: 40px;
+.job3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }
 
-@media (max-width: 1033px) {
-    .mywork {
-        width: 25%;
-    }
-
-    .mp3info {
-        font-size: 20px;
-    }
+.work5{
+    background-color: gray;
+    height: 52vh;
+    width: 30%;
+    margin-left: 150px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
 }
 
-@media (max-width: 912px) {
-    .mywork {
-        width: 28%;
-    }
-
-    .fbclone {
-        height: 40vh;
-        margin-top: 62px;
-    }
-
-    .mp3clone {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .work3 {
-        margin-top: 200px;
-    }
-
+.solarsystem{
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border: solid 2px gray;
+    border-radius: 20px;
 }
 
-@media (max-width: 813px) {
-    .mywork {
-        width: 30%;
-    }
-
-    .itechlogo {
-        height: 40vh;
-    }
+.info5{
+    margin-top: 5px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-    .mywork {
-        width: 35%;
-        margin-left: 230px;
-        margin-top: 0;
-    }
-
-    .work {
-        font-size: 15px;
-        border-radius: 10px;
-    }
-
-    .fbclone {
-        height: 45vh;
-        width: 40%;
-        margin-left: 50px;
-        margin-top: 40px;
-        border: solid black;
-    }
-
-    .work1 {
-        font-size: 20px;
-        text-align: center;
-        padding: 90px;
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .itechlogo {
-        height: 40vh;
-        width: 40%;
-        margin-right: 90px;
-        margin-top: 100px;
-        border: solid black;
-    }
-
-    .work2 {
-        height: 50vh;
-        text-align: center;
-        padding: 90px;
-    }
-
-    .gameinfo {
-        font-size: 18px;
-    }
-
-    .mp3 {
-        height: 40vh;
-        width: 70%;
-        margin-left: 110px;
-        margin-top: 200px;
-        border: solid black;
-    }
-
-    .work3 {
-        height: 70vh;
-        text-align: center;
-        padding: 90px;
-    }
-
-    .mp3info {
-        font-size: 20px;
-    }
-
-    .openapp {
-        margin-left: 0px;
-    }
+.solarinfo{
+    text-align: center;
+    font-size: 17px;
 }
 
-@media (max-width: 694px) {
-    .mywork {
-        width: 37%;
-    }
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    margin-top: 5px;   
+    height: 6vh;
+    width: 21%;
+    border-radius: 25px;
 }
 
-@media (max-width: 591px) {
-    .mywork {
-        width: 43%;
-    }
-
-    .fbclone {
-        margin-top: 50px;
-    }
-
-    .itechlogo {
-        width: 30%;
-        height: 35vh;
-    }
-
-    .mp3clone {
-        margin-left: 0;
-    }
+.button2{
+    height: 5vh;
+    margin-top: 3px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom ,#537679, #1a2227) ; 
 }
 
-@media (max-width: 511px) {
-    .mywork {
-        width: 50%;
-        margin-left: 130px;
-    }
-
-    .fbclone {
-        height: 30vh;
-        margin-top: 110px;
-    }
-
-    .itechlogo {
-        width: 30%;
-        margin-right: 40px;
-    }
-
-    .gameinfo {
-        margin-left: 0;
-        padding: 0;
-    }
-
-    .mp3clone {
-        margin-top: 0;
-        margin-left: 0;
-        width: 90%;
-    }
-
-    .work3 {
-        margin-top: 100px;
-        height: 80vh;
-    }
-
+.button2:hover{
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    border: none; 
+    cursor: pointer;
 }
 
-@media (max-width: 440px) {
-    .mywork {
-        width: 60%;
-        margin-left: 80px;
-    }
+.solar{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+} 
 
-    .fbclone {
-        height: 30vh;
-        margin-top: 90px;
-    }
-
-    .work1 {
-        font-size: 15px;
-        padding: 80px;
-    }
-
-    .itechlogo {
-        margin-right: 100px;
-        margin-top: 60px;
-        width: 50%;
-    }
-
-    .gameinfo {
-        font-size: 17px;
-    }
-
-    .mp3 {
-        height: 40vh;
-        width: 90%;
-        margin-top: 140px;
-        margin-left: 30px;
-    }
+.work6{
+    background-color: gray;
+    height: 50vh;
+    width: 30%;
+    margin-left: 10px;
 }
 
-@media (max-width: 380px) {
-    .fbclone{
-        width: 60%;
-        margin-left: 70px;
-    }
-
-    .itechlogo{
-        width: 60%;
-        margin-right: 70px;
-    }
-
-    .mywork{
-        width: 68%;
-        margin-left: 60px;
-    }
-
-    .work2{
-        height: 60vh;
-    }
+.wrk6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 368px) {
-    .mywork {
-        font-size: 25px;
-        width: 70%;
-        margin-left: 40px;
-        margin-top: 80px;
-        float: left;
+    .mywrks{
+        font-size: 50px;
     }
 
-    .work {
-        font-size: 15px;
-        border-radius: 10px;
-    }
-
-    .fbclone {
-        height: 45vh;
-        width: 70%;
-        margin-left: 50px;
-        margin-top: 20px;
-        border: solid black;
-    }
-
-    .work1 {
-        font-size: 13px;
-        text-align: center;
-        padding: 90px;
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    .itechlogo {
-        height: 30vh;
-        width: 50%;
-        margin-right: 90px;
-        margin-top: 100px;
-        border: solid black;
-    }
-
-    .work2 {
-        height: 60vh;
-        text-align: center;
-        padding: 90px;
-        margin-top: 10px;
-    }
-
-    .gameinfo {
-        font-size: 13px;
-    }
-
-    .mp3 {
-        height: 30vh;
-        width: 90%;
-        margin-left: 30px;
+    .renz{
+        margin-right: 80px;
         margin-top: 150px;
-        border: solid white;
-    }
-
-    .work3 {
-        height: 65vh;
-        text-align: center;
-        padding: 90px;
-    }
-
-    .mp3info {
-        font-size: 13px;
-    }
-
-    .opens{
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .openapp {
-        margin-right: 0px;
-        font-size: 13px;
-    }
-
-    .calcu{
         height: 30vh;
+        width: 60%;
     }
 
-    .calculator{
-        margin-right: 70px;
-        margin-top: 70px;
-        width: 60%;  
-        height: 30vh;      
+    .welcome{
+        font-size: 30px;
+        margin-left: 35px;
     }
 
-    .work4{
-        height: 60vh;
+    .homepage{
+        margin-top: 400px;
     }
 
-    .calcuinfo{
-        font-size: 13px;
+    .page{
+        font-size: 14px;
+        margin-right: 30px;
         text-align: center;
     }
 
-    .ss {
-        height: 30vh;
-        width: 90%;
-        margin-left: 15px;
-        margin-top: 60px;
-        border: solid white;
+    .wrks{
+        height: 400vh;
     }
 
-    .open{
-        margin-left: 70px;
-    }
-
-    .SSinfo {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 300px) {
-    .mywork{
-        font-size: 25px;
-        margin-left: 45px;
-        width: 70%;
-    }
-
-    .fbclone{
-        margin-left: 40px;
-        margin-top: 0;
-        height: 30vh;
+    .job1{
+        display: flex;
+        flex-direction: column;
     }
 
     .work1{
-        padding: 10px;
-        font-size: 15px;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .work2{
+        width: 80%;
+        margin-left: 30px;
     }
 
     .itechlogo{
-        width: 60%;
-        margin-top: 50px;
-        margin-right: 55px;
-    }      
-
-    .work2{
-        padding: 30px;
-        height: 45vh;
+        margin-top: 5px;
     }
 
-    .gameinfo{
-        font-size: 15px;
+    .info2{
+        margin-top: 2px;
     }
 
-    .mp3{
-        margin-top: 110px;
+    .job2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
     }
 
     .work3{
-        padding: 30px;
-        height: 50vh;
+        height: 55vh;
+        width: 80%;
+        margin-left: 30px;
     }
 
-    .mp3info{
-        font-size: 15px;
+    .btn1{
+        width: 30%;
     }
 
-    .open{
-        margin-top: 25px;
+    .work4{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 30px;
     }
 
-    .SSinfo{
-        font-size: 15px;
+    .mp3clone{
+        margin-top: 5px;
     }
+
+    .info2{
+        margin-top: 2px;
+    }
+
+    .job3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .work5{
+        height: 55vh;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .btn2{
+        width: 30%;
+    }
+
+    .work6{
+        height: 55vh;
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 30px;
+
+    }
+
+
 }
-

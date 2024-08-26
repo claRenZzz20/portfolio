@@ -209,7 +209,7 @@ ul li a:hover {
     height: 110vh;
     border-radius: 50px;
     border: solid white;
-    background-color: #222222;
+    background-image: linear-gradient(to top, #707070, #474747, #292928);
 }
 
 .abt {
@@ -371,7 +371,8 @@ ul li a:hover {
     font-weight: 500;
     color: white;
     padding: 100px;
-    background-color: rgb(44, 43, 43);
+    background-image: linear-gradient(to top, #707070, #292928);
+    border-radius: 20px;
     border: solid white;
 }
 
@@ -388,7 +389,7 @@ ul li a:hover {
 .contactnav {
     background-color: rgb(0, 0, 0);
     height: 100%;
-    margin-top: 550px;
+    margin-top: 500px;
     border: 5px solid white;
     font-size: 12px;
 }
@@ -949,7 +950,6 @@ ul li a:hover {
 
         .bar {
             background-color: black;
-            margin: auto;
             position: fixed;
             height: 10%;
         }
@@ -958,18 +958,19 @@ ul li a:hover {
             margin-left: 0;
             width: 26%;
             height: 10vh;
+            float: left;
         }
 
         .profile {
             margin-right: 70px;
-            height: 30%;
+            height: 31%;
             width: 60%;
             margin-top: 100px;
         }
 
         .button {
             gap: 0;
-            font-size: 12px;
+            font-size: 14px;
             margin-left: 55px;
         }
 
@@ -1079,9 +1080,9 @@ ul li a:hover {
         }
 
         .abtinfo {
-            font-size: 18px;
+            font-size: 17px;
             text-align: center;
-            padding: 60px;
+            padding: 65px;
         }
 
         .fname {

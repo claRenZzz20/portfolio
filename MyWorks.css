@@ -265,13 +265,47 @@ span::before{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
     border: solid 2px gray;
     border-radius: 20px;
 }
 
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    margin-top: 5px;   
+    height: 6vh;
+    width: 21%;
+    border-radius: 25px;
+}
+
+.button2{
+    height: 5vh;
+    margin-top: 3px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom ,#537679, #1a2227) ; 
+}
+
+.button2:hover{
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    border: none; 
+    cursor: pointer;
+}
+
+.calcu{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+} 
+
 .info4{
-    margin-top: 15px;
+    margin-top: 5px;
     background-image: linear-gradient(to bottom, #79AEB2, #253038 );
     color: white;
     width: 80%;
@@ -328,7 +362,7 @@ span::before{
     font-size: 17px;
 }
 
-.btn2{
+.btn3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +373,7 @@ span::before{
     border-radius: 25px;
 }
 
-.button2{
+.button3{
     height: 5vh;
     margin-top: 3px;
     font-size: 16px;
@@ -350,7 +384,7 @@ span::before{
     background-image: linear-gradient(to bottom ,#537679, #1a2227) ; 
 }
 
-.button2:hover{
+.button3:hover{
     background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
     border: none; 
     cursor: pointer;

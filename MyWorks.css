@@ -85,7 +85,7 @@ span::before{
 }
 
 .wrks{
-    height: 200vh;
+    height: 250vh;
     background-color: aliceblue;
     border: solid white;
     border-radius: 20px;
@@ -392,16 +392,90 @@ span::before{
 
 .work6{
     background-color: gray;
-    height: 50vh;
+    height: 52vh;
     width: 30%;
     margin-left: 10px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
 }
 
-.wrk6{
+.netflix{
+    height: 30vh;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    border: solid 2px gray;
+    border-radius: 20px;
 }
+
+.info6{
+    margin-top: 5px;
+    background-image: linear-gradient(to bottom, #79AEB2, #253038 );
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.netflixinfo{
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;   
+    border-radius: 25px;
+}
+
+.button4{
+    height: 5vh;
+    width: 25%;
+    margin-top: 3px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.button4:hover{
+    background-image: linear-gradient(to bottom ,#79AEB2, #253038) ; 
+    border: none; 
+    cursor: pointer;
+}
+
+.net{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+} 
+
+.job4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.work7{
+    background-color: gray;
+    height: 52vh;
+    color: white;
+    width: 30%;
+    margin-left: 150px;
+    background-image: linear-gradient(to top, gray, black);
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
 
 @media (max-width: 368px) {
     .mywrks{
@@ -431,7 +505,7 @@ span::before{
     }
 
     .wrks{
-        height: 400vh;
+        height: 430vh;
     }
 
     .job1{
@@ -515,5 +589,21 @@ span::before{
         margin-top: 30px;
     }
 
+    .button4{
+        width: 30%;
+    }
+
+    .job4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .work7{
+        height: 55vh;
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
 
 }

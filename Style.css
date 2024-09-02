@@ -11,6 +11,7 @@ html {
 }
 
 nav {
+    position: fixed;
     background-color: #222222;
     height: 80px;
     width: 100%;
@@ -337,7 +338,6 @@ nav ul li a:hover {
 .aboutme {
     width: 40%;
     font-size: 50px;
-    padding: 90px;
     margin-top: 10%;
     margin-left: 10%;
     color: red;
@@ -383,7 +383,7 @@ nav ul li a:hover {
 
 #Contact {
     width: 100%;
-    height: 30vh;
+    height: 35vh;
 }
 
 .contactnav {
@@ -412,6 +412,17 @@ nav ul li a:hover {
 .email {
     margin-top: 10px;
     color: white;
+}
+
+.insta h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.creator{
+    color: rgb(255, 255, 43);
 }
 
 @media (max-width: 1033px) {
@@ -480,6 +491,13 @@ nav ul li a:hover {
         margin-right: 100px;
     }
 
+    .insta h3{
+        color: white;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
 }
 
 @media (max-width: 912px) {
@@ -518,6 +536,18 @@ nav ul li a:hover {
         width: 30%;
         height: 40vh;
         margin-top: 65px;
+    }
+
+    #Contact{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .insta h3{
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top: 20px;
     }
 
 }
@@ -561,6 +591,18 @@ nav ul li a:hover {
 
     .abt2 {
         margin-top: 80px;
+    }
+
+    #Contact{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .insta h3{
+        color: white;
+        font-family: sans-serif;
+        font-size: 7px;
+        margin-top: 20px;
     }
 
 }
@@ -751,11 +793,20 @@ nav ul li a:hover {
 
     #Contact {
         width: 100%;
-        height: 29vh;
+        height: 35vh;
         margin-top: 400px;
         font-size: 10px;
         margin-left: 2px;
     }
+
+    .insta h3{
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+}
 
     @media (max-width: 694px) {
 
@@ -873,7 +924,7 @@ nav ul li a:hover {
         }
 
         #Contact {
-            height: 30vh;
+            height: 35vh;
         }
 
         .mycontact {
@@ -882,6 +933,13 @@ nav ul li a:hover {
 
         .contactnav {
             margin-top: 500px;
+        }
+
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+            margin-top: 20px;
         }
 
     }
@@ -985,6 +1043,18 @@ nav ul li a:hover {
         .aboutme {
             width: 35%;
             margin-left: 80px;
+        }
+
+        #Contact{
+            width: 100%;
+            height: 35vh;
+        }
+
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 13px;
+            margin-top: 20px;
         }
 
     }
@@ -1093,6 +1163,13 @@ nav ul li a:hover {
             margin-left: 35px;
         }
 
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
     }
 
     @media (max-width: 440px) {
@@ -1176,8 +1253,12 @@ nav ul li a:hover {
             width: 60%;
         }
 
+        #Skills{
+            height: 130vh;
+        }
+
         #Contact {
-            height: 30vh;
+            height: 35vh;
         }
 
         .mycontact {
@@ -1188,7 +1269,12 @@ nav ul li a:hover {
             margin-top: 700px;
         }
 
-
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-top: 20px;
+        }
 
     }
 
@@ -1298,6 +1384,13 @@ nav ul li a:hover {
             margin-top: 800px;
         }
 
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 11px;
+            margin-top: 20px;
+        }
+
     }
 
 
@@ -1305,10 +1398,14 @@ nav ul li a:hover {
 
         .checkbtn{
             display: block;
+            font-size: 35px;
+            line-height: 65px;
+            margin-left: 10px;
         }
 
         nav{
             position: fixed;
+            height: 10vh;
         }
 
         ul{
@@ -1339,8 +1436,8 @@ nav ul li a:hover {
 
         .logo {
             margin-left: 20px;
-            width: 26%;
-            height: 10vh;
+            width: 23%;
+            height: 8vh;
             float: left;
         }
 
@@ -1442,16 +1539,26 @@ nav ul li a:hover {
         #Skills {
             height: 135vh;
             width: 100%;
+            margin-top: 200px;
+            margin-left: 0;
+        }
+
+        #About{
+            height: 0vh;
+            width: 100%;
             margin-top: 150px;
             margin-left: 0;
         }
 
         .aboutme {
-            width: 55%;
-            margin-top: 20px;
+            width: 60%;
+            margin-top: 60px;
             margin-left: 100px;
             float: left;
-            padding: 20px;
+        }
+
+        .abt1{
+            margin-top: 200px;
         }
 
         .abt2 {
@@ -1462,6 +1569,10 @@ nav ul li a:hover {
             margin-right: 90px;
             border-radius: 20px;
         }
+
+        .abt3{
+            margin-top: 20px;
+        } 
 
         .abtinfo {
             font-size: 17px;
@@ -1475,11 +1586,19 @@ nav ul li a:hover {
 
         #Contact {
             width: 100%;
-            height: 30vh;
+            height: 35vh;
             margin-top: 5px;
             font-size: 10px;
             margin-left: 2px;
         }
+
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 11px;
+            margin-top: 20px;
+        }
+        
     }
 
     @media (max-width: 300px) {
@@ -1581,6 +1700,11 @@ nav ul li a:hover {
             height: 10vh;
         }
 
-    }
+        .insta h3{
+            color: white;
+            font-family: sans-serif;
+            font-size: 7px;
+            margin-top: 20px;
+        }
 
-}
+    }

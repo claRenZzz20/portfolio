@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactform {
+    background-color: white;
+    width: 30%;
+    height: 58vh;
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 180px;
+    box-shadow: 10px 10px 15px lightseagreen, -10px -10px 15px lightseagreen;
+    border-radius: 20px;
+}
+
+.message {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.inputbox {
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.inputbox input,
+textarea {
+    width: 95%;
+    padding: 5px 0;
+    font-size: 15px;
+    border: solid 1px gray;
+    outline: none;
+    resize: none;
+    margin-left: 3px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.span {
+    position: absolute;
+    left: 0;
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 5px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    columns: #666;
+}
+
+.input:valid span {
+    font-size: 12px;
+}
+
+.textarea:valid span {
+    font-size: 12px;
+}
+
+.button{
+    border-radius: 15px;
+    border: solid black;
+    background-color: white;
+    color: black;
+}
+
+.button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .contactform {
+        border-radius: 20px;
+        margin-top: 130px;
+        width: 80%;
+        margin-left: 30px;
+        box-shadow: 10px 10px 15px lightseagreen, -10px -10px 15px lightseagreen;
+        border-radius: 20px;
+    }
+
+    .button{
+        border-radius: 15px;
+        border: solid black;
+        background-color: white;
+        color: black;
+    }
+    
+    .button:hover {
+        background-color: black;
+        cursor: pointer;
+        color: white;
+    }
+
+    .social{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+
+}
